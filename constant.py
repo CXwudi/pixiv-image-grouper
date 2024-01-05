@@ -1,5 +1,6 @@
 # all pixiv constant
 # constant about ID to year
+before2024 = (2023, 114717469)
 before2023 = (2022, 104130000)
 before2022 = (2021, 95207000)
 before2021 = (2020, 86723000)
