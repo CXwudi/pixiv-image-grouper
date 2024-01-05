@@ -9,7 +9,9 @@ Opinionated tool to group images from Pixiv or other sources into folders.
 ## Installation
 
 ```bash
-pip3 install -r requirements.txt
+python3 -m venv .venvs/
+.venvs/bin/python -m pip install -r requirements.txt
+
 pyinstaller --onefile --name pixiv-image-grouper main.py
 ```
 
