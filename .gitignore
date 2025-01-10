@@ -4,3 +4,5 @@
 /dist/
 *.spec
 .venvs/
+.venv/
+.ruff_cache/
