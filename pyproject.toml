@@ -12,6 +12,7 @@ dev = [
     "pyinstaller",
     "ruff",
     "hatch",
+    "pytest",
 ]
 
 [build-system]
@@ -32,4 +33,4 @@ pixiv-image-grouper = "pixiv_image_grouper.main:main"
 
 [tool.hatch.envs.default.scripts]
 build-exe = "pyinstaller src/pixiv_image_grouper/main.py --name pixiv-image-grouper --onefile"
-test = "python -m unittest discover -s tests"
+test = "pytest tests"
