@@ -4,11 +4,9 @@ Opinionated tool to group images from Pixiv or other sources into folders.
 
 ## Prerequisites
 
-- Python 3.8+
+- uv
 
 ## Installation
-
-Using uv (recommended):
 
 ```bash
 # Create and activate virtual environment
