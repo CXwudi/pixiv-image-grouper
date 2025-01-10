@@ -21,6 +21,13 @@ uv pip install -e ".[dev]"
 hatch run build-exe
 ```
 
+## Testing
+
+```bash
+# Run unit tests
+hatch run test
+```
+
 ## Usage
 
 Move the executable from `dist/pixiv-image-grouper/` to the folder where you want to group the images and run it.
