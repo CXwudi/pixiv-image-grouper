@@ -20,7 +20,7 @@ source .venv/bin/activate  # Unix
 uv pip install -e ".[dev]"
 
 # Build executable
-pyinstaller src/pixiv_image_grouper/main.py --name pixiv-image-grouper
+hatch run build-exe
 ```
 
 ## Usage

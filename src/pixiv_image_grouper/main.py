@@ -1,8 +1,8 @@
 import os
 import logging
-from .check_image import is_image
-from .get_year import get_year
-from .file_handling import move_to_year_folder
+from pixiv_image_grouper.check_image import is_image
+from pixiv_image_grouper.get_year import get_year
+from pixiv_image_grouper.file_handling import move_to_year_folder
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)

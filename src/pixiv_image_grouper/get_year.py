@@ -2,8 +2,8 @@ from os import DirEntry
 import sys
 import logging
 from datetime import datetime
-from .extract_pixiv_id import get_pixiv_id_from_filename
-from .constant import all_ranges
+from pixiv_image_grouper.extract_pixiv_id import get_pixiv_id_from_filename
+from pixiv_image_grouper.constant import all_ranges
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)

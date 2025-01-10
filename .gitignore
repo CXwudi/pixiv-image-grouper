@@ -1,4 +1,4 @@
-/__pycache__/
+/**/__pycache__/
 .dccache
 /build/
 /dist/
@@ -6,3 +6,4 @@
 .venvs/
 .venv/
 .ruff_cache/
+.vscode/

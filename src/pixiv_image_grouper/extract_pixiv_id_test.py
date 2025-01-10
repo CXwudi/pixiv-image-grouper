@@ -1,6 +1,6 @@
 import unittest
 
-from .extract_pixiv_id import get_pixiv_id_from_filename
+from pixiv_image_grouper.extract_pixiv_id import get_pixiv_id_from_filename
 
 input_results = [
     ("12345678_p0.jpg", 12345678),
