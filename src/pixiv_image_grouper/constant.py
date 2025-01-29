@@ -1,6 +1,7 @@
 # all pixiv constant
 # constant about ID to year
-before2025 = (2024, 125709723)
+# always use the last moment of dec 31st of the year
+before2025 = (2024, 125750247)
 before2024 = (2023, 114717469)
 before2023 = (2022, 104130000)
 before2022 = (2021, 95207000)

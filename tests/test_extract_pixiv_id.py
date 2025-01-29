@@ -8,6 +8,7 @@ test_cases = [
     ("not_a_pixiv_id.jpg", -1),
 ]
 
+
 @pytest.mark.parametrize("filename,expected", test_cases)
 def test_pixiv_id_extraction(filename, expected):
     result = get_pixiv_id_from_filename(filename)

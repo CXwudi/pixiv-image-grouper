@@ -45,7 +45,9 @@ def try_get_year_from_pixiv_id(entry: DirEntry) -> str:
         return before2018_str
     # then handle the rest of the ranges
     for year, id_barrier in all_ranges[1:]:
-        if pixiv_id < id_barrier:
+        if (
+            pixiv_id <= id_barrier
+        ):  # including the id_barrier, the id_barrier should be the last day of the year
             log.debug(f"pixiv id {pixiv_id} is in {year}")
             return str(year)
     # however, if the pixiv id is larger than the last range, it is in current year
