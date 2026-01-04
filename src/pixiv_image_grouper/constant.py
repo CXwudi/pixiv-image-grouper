@@ -3,6 +3,7 @@
 # always use the last moment of dec 31st of the year
 from typing import List, Tuple
 
+before2026: Tuple[int, int] = (2025, 139367291)
 before2025: Tuple[int, int] = (2024, 125750247)
 before2024: Tuple[int, int] = (2023, 114717469)
 before2023: Tuple[int, int] = (2022, 104130000)
@@ -21,4 +22,5 @@ all_ranges: List[Tuple[int, int]] = [
     before2023,
     before2024,
     before2025,
+    before2026,
 ]
