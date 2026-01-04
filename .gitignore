@@ -9,3 +9,4 @@
 .vscode/
 .pytest_cache/
 .claude/
+*.egg-info/
