@@ -4,28 +4,26 @@ Opinionated tool to group images from Pixiv or other sources into folders.
 
 ## Prerequisites
 
-- uv
+- [uv](https://docs.astral.sh/uv/)
+- [just](https://github.com/casey/just) (for development)
 
 ## Installation
 
 ```bash
-# Create and activate virtual environment
-uv venv
-.venv\Scripts\activate  # Windows
-source .venv/bin/activate  # Unix
-
-# Install package with development dependencies
-uv pip install -e ".[dev]"
+# Install dependencies
+uv sync
 
 # Build executable
-hatch run build-exe
+just build-exe
 ```
 
-## Testing
+## Development
 
 ```bash
-# Run unit tests
-hatch run test
+just test       # Run tests
+just typecheck  # Type check with ty
+just lint       # Lint with ruff
+just format     # Format with ruff
 ```
 
 ## Usage
